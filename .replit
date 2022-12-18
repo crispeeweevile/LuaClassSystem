@@ -1,0 +1,12 @@
+run = "python test.py"
+
+[languages.lua]
+pattern = "**/*.lua"
+
+[languages.lua.languageServer]
+start = ["lua-language-server"]
+
+[nix]
+
+[nix.channel]
+channel = "stable-22_05"
